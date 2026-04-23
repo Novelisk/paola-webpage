@@ -11,7 +11,8 @@
 .about__image {
   object-fit: cover;
   border-radius: 10px;
-  width: 485px;
+  width: 480px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.15);
 }
 
 .about-content {

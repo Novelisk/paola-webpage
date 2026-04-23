@@ -13,3 +13,8 @@ html {
 body {
   font-family: Verdana;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
