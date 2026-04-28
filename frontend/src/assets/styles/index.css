@@ -6,12 +6,32 @@
   box-sizing: border-box;
 }
 
+:root {
+  /* Layout */
+  --header-height: 70px;
+
+  /* Colors - Background */
+  --color-bg: #fff;
+
+  /* Colors - Text */
+  --color-title: #000;
+  --color-description: #000;
+  --color-card-title: #555;
+  --color-card-description: #333;
+
+  /* Colors - Cards */
+  --card-bg: #f9f9f9;
+  --card-border: #ccc solid 1px;
+  --card-border-radius: 12px;
+  --card-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: Verdana;
+  font-family: Verdana, sans-serif;
 }
 
 a {

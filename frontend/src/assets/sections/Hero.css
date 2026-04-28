@@ -25,12 +25,6 @@
   z-index: -10;
 }
 
-/* .hero__title,
-.hero__tagline,
-.hero__cta {
-  position: relative;
-} */
-
 .hero__title {
   font-size: 48px;
   font-weight: 500;
