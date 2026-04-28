@@ -10,7 +10,7 @@ const Hero = () => {
       />
       <div className="hero__content">
         <h2 className="hero__title">Paola García</h2>
-        <p className="hero__tagline">Actriz & Dubbing</p>
+        <p className="hero__tagline">Actriz & Directora de Doblaje</p>
         <div className="hero__cta">
           <a href="#contacto" className="hero__cta-item">
             Contacto
