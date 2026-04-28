@@ -1,5 +1,5 @@
 .about {
-  scroll-margin-top: 70px;
+  scroll-margin-top: var(--header-height);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin: 0 auto;
