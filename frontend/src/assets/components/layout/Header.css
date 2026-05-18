@@ -25,7 +25,16 @@
 }
 
 .header__logo--scrolled {
-  color: black;
+  color: #000;
+}
+
+.header__hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #fff;
 }
 
 .header__nav {
@@ -49,4 +58,34 @@
 .header__nav-item--scrolled:hover {
   cursor: pointer;
   opacity: 0.7;
+}
+
+@media (max-width: 640px) {
+  .header__hamburger {
+    display: block;
+  }
+
+  .header__hamburger--scrolled {
+    color: #000;
+  }
+
+  .header__nav {
+    display: none;
+    position: absolute;
+    top: var(--header-height);
+    width: 100%;
+  }
+
+  .header__nav.open {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-bg);
+    padding: 20px;
+    gap: 16px;
+    left: 0;
+  }
+
+  .header__nav.open .header__nav-item {
+    color: #000;
+  }
 }
