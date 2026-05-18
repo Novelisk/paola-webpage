@@ -26,13 +26,15 @@
 }
 
 .hero__title {
-  font-size: 48px;
+  /* font-size: 48px; */
+  font-size: clamp(2rem, 5vw, 3rem);
   font-weight: 500;
   color: #fff;
 }
 
 .hero__tagline {
-  font-size: 24px;
+  /* font-size: 24px; */
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
   font-weight: 400;
   color: whitesmoke;
 }

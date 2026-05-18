@@ -23,14 +23,16 @@
 }
 
 .about-content__title {
-  font-size: 28px;
+  /* font-size: 28px; */
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
   font-weight: 500;
   color: #000;
 }
 
 .about-content__description,
 .about__achievement-description {
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: clamp(0.875rem, 2vw, 1rem);
   font-weight: 100;
   color: #000;
 }
@@ -56,13 +58,31 @@
 }
 
 .about__achievement-title {
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: clamp(0.875rem, 2vw, 1rem);
   font-weight: 530;
   color: #000;
 }
 
 .about__achievement-description {
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: clamp(0.75rem, 1.5vw, 0.875rem);
   font-weight: 100;
   color: #555;
+}
+
+@media (max-width: 640px) {
+  .about {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .about__image {
+    width: 100%;
+  }
+
+  .about-content {
+    margin-top: 20px;
+    align-items: center;
+  }
 }
