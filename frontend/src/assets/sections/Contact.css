@@ -18,13 +18,15 @@
 }
 
 .contact-header__title {
-  font-size: 26px;
+  /* font-size: 26px; */
+  font-size: clamp(1.25rem, 3vw, 1.625rem);
   font-weight: 500;
   color: #000;
 }
 
 .contact-header__description {
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: clamp(0.875rem, 2vw, 1rem);
   font-weight: 100;
   color: #000;
 }
@@ -74,6 +76,7 @@
 .contact__social-title,
 .contact__form-title {
   font-size: 18px;
+  font-size: clapm(0.875rem, 2vw, 1.125rem);
   font-weight: 500;
   color: #000;
 }
@@ -197,4 +200,31 @@
   align-self: center;
   font-size: 14px;
   color: #555;
+}
+
+/* Media Queries */
+@media (max-width: 640px) {
+  .contact {
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+  .contact-content {
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+  }
+
+  .contact__social-links {
+    align-self: center;
+  }
+
+  .contact-content__info,
+  .contact-content__social {
+    width: 100%;
+  }
+
+  .contact-content__social {
+    height: auto;
+  }
 }

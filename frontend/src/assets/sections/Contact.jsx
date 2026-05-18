@@ -83,7 +83,7 @@ const Contact = () => {
           <div className="contact-content__social">
             <div className="contact__social-header">
               <h3 className="contact__social-title">
-                Sígueme en las redes sociales
+                Sígueme en mis redes sociales
               </h3>
               <p className="contact__social-description">
                 También puedes encontrarme en las siguientes plataformas:
@@ -120,9 +120,6 @@ const Contact = () => {
           </div>
 
           <div className="contact-form-group">
-            {/* <label htmlFor="name" className="contact-form-label">
-              Nombre
-            </label> */}
             <input
               type="text"
               id="name"
@@ -136,9 +133,6 @@ const Contact = () => {
           </div>
 
           <div className="contact-form-group">
-            {/* <label htmlFor="email" className="contact-form-label">
-              Correo Electrónico
-            </label> */}
             <input
               type="email"
               id="email"
@@ -152,9 +146,6 @@ const Contact = () => {
           </div>
 
           <div className="contact-form-group">
-            {/* <label htmlFor="subject" className="contact-form-label">
-              Asunto
-            </label> */}
             <input
               type="text"
               id="subject"
@@ -168,9 +159,6 @@ const Contact = () => {
           </div>
 
           <div className="contact-form-group">
-            {/* <label htmlFor="message" className="contact-form-label">
-              Mensaje
-            </label> */}
             <textarea
               id="message"
               name="message"
