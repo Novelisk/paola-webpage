@@ -57,7 +57,9 @@
   cursor: pointer;
 }
 
-@media (max-width: 640px) {
+/* Media Queries */
+
+@media (max-width: 768px) {
   .gallery {
     padding: 20px;
     padding-top: 10px;

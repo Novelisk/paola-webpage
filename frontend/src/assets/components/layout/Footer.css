@@ -9,7 +9,8 @@
 }
 
 .footer__text {
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: clamp(0.75rem, 1.5vw, 0.875rem);
   color: #ccc;
 }
 
@@ -23,4 +24,12 @@
   text-decoration: underline;
   cursor: pointer;
   color: #fff;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .footer__link {
+    text-decoration: underline;
+  }
 }

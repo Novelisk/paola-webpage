@@ -72,7 +72,9 @@
   color: #555;
 }
 
-@media (max-width: 640px) {
+/* Media Queries */
+
+@media (max-width: 768px) {
   .about {
     grid-template-columns: 1fr;
     padding: 20px;

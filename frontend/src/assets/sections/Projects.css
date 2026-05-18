@@ -175,7 +175,9 @@
   font-style: italic;
 }
 
-@media (max-width: 640px) {
+/* Media Queries */
+
+@media (max-width: 768px) {
   .projects {
     padding: 20px;
     padding-top: 20px;
