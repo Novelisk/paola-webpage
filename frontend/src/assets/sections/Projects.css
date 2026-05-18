@@ -17,13 +17,15 @@
 }
 
 .projects-header__title {
-  font-size: 26px;
+  /* font-size: 26px; */
+  font-size: clamp(1.25rem, 3vw, 1.625rem);
   font-weight: 500;
   color: #000;
 }
 
 .projects-header__description {
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: clamp(0.875rem, 2vw, 1rem);
   font-weight: 100;
   color: #000;
 }
@@ -119,13 +121,15 @@
 }
 
 .project-card__character {
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: clamp(0.875rem, 2vw, 1rem);
   font-weight: 500;
   color: #000;
 }
 
 .project-card__release-year {
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: clamp(0.75rem, 1.5vw, 0.875rem);
   font-weight: 500;
   color: #000;
 }
@@ -154,7 +158,8 @@
 .project-card__wiki-link,
 .project-card__studio-link {
   text-decoration: underline;
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: clamp(0.75rem, 1.5vw, 0.875rem);
 }
 
 .project-card__streaming-link:hover,
@@ -164,7 +169,23 @@
 }
 
 .project-card__studio-description {
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: clamp(0.75rem, 1.5vw, 0.875rem);
   font-weight: 500;
   font-style: italic;
+}
+
+@media (max-width: 640px) {
+  .projects {
+    padding: 20px;
+    padding-top: 20px;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+
+  .project-card__image {
+    width: 150px;
+  }
 }
