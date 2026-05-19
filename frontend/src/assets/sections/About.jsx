@@ -42,22 +42,29 @@ const About = () => {
         <h3 className="about-content__title">Sobre mi...</h3>
 
         <p className="about-content__description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid,
-          dolor! Accusamus cupiditate tempora quia, tenetur nesciunt, repellat
-          distinctio, minima incidunt ea quibusdam nihil nobis corrupti nostrum
-          recusandae excepturi pariatur iste.
+          Mi camino profesional empezó entre consolas y partituras. Me formé
+          como Ingeniera en Producción Musical y realicé una maestría en Music
+          Business, una base que me dio la precisión técnica y el entendimiento
+          estratégico que hoy aplico en cada proyecto. Sin embargo, siempre
+          sentí que mi verdadera voz estaba esperando ser descubierta, lo que me
+          llevó a dar un giro vital hacia mi verdadera pasión: la
+          interpretación.
         </p>
         <p className="about-content__description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid,
-          dolor! Accusamus cupiditate tempora quia, tenetur nesciunt, repellat
-          distinctio, minima incidunt ea quibusdam nihil nobis corrupti nostrum
-          recusandae excepturi pariatur iste.
+          Tras sumergirme en un entrenamiento intensivo de <i> voice dubbing</i>
+          , encontré en el doblaje el punto exacto donde mi oído musical y mi
+          capacidad expresiva se encuentran. Ese cambio de rumbo no fue un
+          borrón y cuenta nueva, sino una evolución; hoy utilizo toda mi
+          formación previa para entender el ritmo, el tono y la intención que
+          cada personaje y cada escena requieren.
         </p>
         <p className="about-content__description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid,
-          dolor! Accusamus cupiditate tempora quia, tenetur nesciunt, repellat
-          distinctio, minima incidunt ea quibusdam nihil nobis corrupti nostrum
-          recusandae excepturi pariatur iste.
+          Actualmente, me desempeño con total entrega como actriz y directora de
+          doblaje. Mi misión es dar vida a historias con autenticidad, cuidando
+          cada detalle técnico desde el atril hasta la dirección de sala. Me
+          apasiona el poder transformador de la voz y cómo, a través de ella,
+          podemos conectar emociones y cruzar fronteras. ¡Bienvenidos a mi
+          espacio!
         </p>
 
         <div className="about-content__achievements">
