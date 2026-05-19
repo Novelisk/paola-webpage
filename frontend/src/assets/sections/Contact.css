@@ -229,3 +229,14 @@
     height: auto;
   }
 }
+
+@media (max-width: 1024px) {
+  .contact {
+    padding: 40px;
+  }
+
+  .contact-content__info,
+  .contact-content__social {
+    width: 100%;
+  }
+}

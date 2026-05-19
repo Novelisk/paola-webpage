@@ -17,10 +17,19 @@ const Contact = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     setIsLoading(true);
     setStatus(null);
+
+    if (!formData.name || !formData.email || !formData.message) {
+      setStatus({
+        success: false,
+        message: 'Por favor completa todos los campos.',
+      });
+      setIsLoading(false);
+      return;
+    }
 
     emailjs
       .send(
@@ -30,12 +39,12 @@ const Contact = () => {
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
       )
       .then((res) => {
-        console.log('SUCCESS!', res.status, res.text);
+        console.log('SUCCESS!', res.status, res.text); // May delete this line
         setStatus({ success: true, message: 'Mensaje enviado correctamente.' });
         setFormData({ name: '', email: '', subject: '', message: '' });
       })
       .catch((err) => {
-        console.error('ERROR!', err.text);
+        console.error('ERROR!', err.text); // May delete this line
         setStatus({ success: false, message: 'Error al enviar el mensaje.' });
       })
       .finally(() => {
