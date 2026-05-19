@@ -1,5 +1,7 @@
 import { GiHeartburn } from 'react-icons/gi';
-import { SiCrunchyroll } from 'react-icons/si';
+import { SiCrunchyroll, SiNetflix } from 'react-icons/si';
+import { FaAmazon } from 'react-icons/fa';
+import { TbBrandHbo } from 'react-icons/tb';
 
 export const projects = [
   {
@@ -106,13 +108,124 @@ export const projects = [
     studioName: 'Audiomaster Candiani',
     studioUrl: 'https://www.audiomaster.com.mx/',
   },
+  {
+    id: 7,
+    type: 'direcciones',
+    title: 'Love After World Domination',
+    image:
+      'https://m.media-amazon.com/images/M/MV5BYTFkNTc3YTAtOGI2MS00MDZiLTgxY2UtNDE3ZjQ3OWRkZmVmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseYear: '2022',
+    streamingName: 'Crunchy Roll',
+    streamingUrl:
+      'https://www.crunchyroll.com/es/series/GEXH3WG78/love-after-world-domination?srsltid=AfmBOorfpPMy4nEufn6peAllvgjb_KSwLOEBOHryu4j5voM30z2dPPG_',
+    streamingIcon: SiCrunchyroll,
+    wikiUrl:
+      'https://doblaje.fandom.com/es/wiki/El_amor_tras_la_dominaci%C3%B3n_mundial',
+    wikiIcon: GiHeartburn,
+    studioName: 'Audiomaster Candiani',
+    studioUrl: 'https://www.audiomaster.com.mx/',
+  },
+  {
+    id: 8,
+    type: 'direcciones',
+    title: 'Nailed It!',
+    image:
+      'https://m.media-amazon.com/images/M/MV5BMzA1NDA4MTQtZGUwMC00YzBlLTg1YmQtOWNhYmI1OWFmYzk1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseYear: 'Temporada 7',
+    streamingName: 'Netflix',
+    streamingUrl: 'https://www.netflix.com/mx/title/81002145',
+    streamingIcon: SiNetflix,
+    wikiUrl: 'https://doblaje.fandom.com/es/wiki/Nailed_It!',
+    wikiIcon: GiHeartburn,
+    studioName: 'Audiomaster Candiani',
+    studioUrl: 'https://www.audiomaster.com.mx/',
+  },
+  {
+    id: 9,
+    type: 'direcciones',
+    title: 'The God of High School',
+    image:
+      'https://m.media-amazon.com/images/M/MV5BODVjODVhNjgtZWZkNy00ODViLTgwMGYtZmU0ZTNkZTI3N2M5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseYear: '2022',
+    streamingName: 'Crunchy Roll',
+    streamingUrl:
+      'https://www.crunchyroll.com/series/GRVD0ZDQR/the-god-of-high-school',
+    streamingIcon: SiCrunchyroll,
+    wikiUrl: 'https://doblaje.fandom.com/es/wiki/The_God_of_High_School',
+    wikiIcon: GiHeartburn,
+    studioName: 'Audiomaster Candiani',
+    studioUrl: 'https://www.audiomaster.com.mx/',
+  },
+  {
+    id: 10,
+    type: 'direcciones',
+    title: 'Leyla',
+    image:
+      'https://peliculas.lavanguardia.com/imagenes/w500/or7YWXNJdmjIisff11ynSzocafz.jpg',
+    releaseYear: 'eps. 16 - 40',
+    streamingName: 'Prime Video',
+    streamingUrl:
+      'https://www.primevideo.com/detail/0IDAON08OVCP92JTX8M6NRICHU',
+    streamingIcon: FaAmazon,
+    wikiUrl: 'https://doblaje.fandom.com/es/wiki/Leyla',
+    wikiIcon: GiHeartburn,
+    studioName: 'Universal Cinergía Dubbing',
+    studioUrl: 'https://universalcinergia.com/es/inicio/',
+  },
+  {
+    id: 11,
+    type: 'direcciones',
+    title: 'To Your Eternity',
+    image:
+      'https://m.media-amazon.com/images/M/MV5BMzZhYzAzODUtMzYxMi00OWE1LWI4ZTQtYzU4ZjgxZjcxODA3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseYear: 'Temporada 2',
+    streamingName: 'Crunchy Roll',
+    streamingUrl:
+      'https://www.crunchyroll.com/series/GG5H5XMWV/to-your-eternity?srsltid=AfmBOoqEfY6dqH5QUepFFbmWgoQ64p9hC-vdPtBVESSROdoiozVl-v0x',
+    streamingIcon: SiCrunchyroll,
+    wikiUrl: 'https://doblaje.fandom.com/es/wiki/To_Your_Eternity',
+    wikiIcon: GiHeartburn,
+    studioName: 'Audiomaster Candiani',
+    studioUrl: 'https://www.audiomaster.com.mx/',
+  },
+  {
+    id: 12,
+    type: 'direcciones',
+    title: '86: Eighty-Six',
+    image:
+      'https://img.anmosugoi.com/file/media-sugoi/2021/09/86-Eight-Six-Crunchyroll.jpg',
+    releaseYear: 'Temporada 2',
+    streamingName: 'Prime Video',
+    streamingUrl:
+      'https://www.primevideo.com/-/es/detail/0O0NSWU3BIK13ABJAWFKH4G4Z4',
+    streamingIcon: FaAmazon,
+    wikiUrl: 'https://doblaje.fandom.com/es/wiki/86:_Eighty-Six',
+    wikiIcon: GiHeartburn,
+    studioName: 'Audiomaster Candiani',
+    studioUrl: 'https://www.audiomaster.com.mx/',
+  },
+  {
+    id: 13,
+    type: 'direcciones',
+    title: 'Peppa Pig',
+    image:
+      'https://m.media-amazon.com/images/M/MV5BYmZjZWQ0OTktODdlYy00ZjA1LWJlNzYtNmYwMDc4YzQzZmQwXkEyXkFqcGc@._V1_.jpg',
+    releaseYear: 'Temporada 9',
+    streamingName: 'HBO Max',
+    streamingUrl:
+      'https://www.hbomax.com/mx/es/shows/peppa-pig/b5228b0a-d96a-41bd-b52c-4056862b0991',
+    streamingIcon: TbBrandHbo,
+    wikiUrl: 'https://doblaje.fandom.com/es/wiki/Peppa_Pig#9%C2%AA_temporada',
+    wikiIcon: GiHeartburn,
+    studioName: 'Audiomaster Candiani',
+    studioUrl: 'https://www.audiomaster.com.mx/',
+  },
   // {
-  //   id: 0,
+  //   id: 14,
   //   type: 'direcciones',
-  //   character: '',
   //   title: '',
   //   image: '',
-  //   releaseYear: 0,
+  //   releaseYear: '',
   //   streamingName: '',
   //   streamingUrl: '',
   //   streamingIcon: null,

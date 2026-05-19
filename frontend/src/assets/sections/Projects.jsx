@@ -63,15 +63,17 @@ const Projects = () => {
                         <h3 className="project-card__title">{project.title}</h3>
                       </div>
 
-                      <div className="project-card__character-container">
-                        <GiCharacter
-                          size={20}
-                          className="project-card__character-icon"
-                        />
-                        <p className="project-card__character">
-                          {project.character}
-                        </p>
-                      </div>
+                      {project.type === 'doblaje' && (
+                        <div className="project-card__character-container">
+                          <GiCharacter
+                            size={20}
+                            className="project-card__character-icon"
+                          />
+                          <p className="project-card__character">
+                            {project.character}
+                          </p>
+                        </div>
+                      )}
 
                       <div className="project-card__release-year-container">
                         <FaRegCalendarAlt
